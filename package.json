@@ -9,13 +9,13 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 5.4"
-  },
-  "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint": ">= 5.4",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-redux-saga": "^1.1.3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0"
   }
 }
