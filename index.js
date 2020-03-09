@@ -1,11 +1,4 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
-    jest: true
-  },
-
   parser: "babel-eslint",
 
   parserOptions: {
@@ -68,21 +61,4 @@ module.exports = {
     "import/no-unresolved": "error",
     "import/prefer-default-export": "off"
   },
-
-  settings: {
-    "import/resolver": {
-      webpack: {
-        config: "./config/webpack/webpack.production.babel.js"
-      }
-    }
-  },
-
-  globals: {
-    describe: true,
-    __DEV__: true,
-    it: true,
-    expect: true,
-    shallow: true,
-    beforeEach: true
-  }
 };
