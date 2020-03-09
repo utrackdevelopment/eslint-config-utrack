@@ -39,7 +39,7 @@ module.exports = {
     quotes: "off",
     semi: 1,
     "jsx-a11y/aria-props": "error",
-    "jsx-a11y/href-no-hash": "error",
+    "jsx-a11y/anchor-is-valid": "error",
     "jsx-a11y/label-has-for": "error",
     "jsx-a11y/mouse-events-have-key-events": "error",
     "jsx-a11y/role-has-required-aria-props": "error",
