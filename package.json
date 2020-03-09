@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 5.4"
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
