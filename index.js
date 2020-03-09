@@ -17,7 +17,7 @@ module.exports = {
   rules: {
     "arrow-parens": ["error", "as-needed"],
     "arrow-body-style": ["error", "as-needed"],
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["error", "only-multiline"],
     "object-curly-spacing": "off",
     "global-require": "off",
     "consistent-return": "off",
